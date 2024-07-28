@@ -1,4 +1,4 @@
-FROM alpine:3.18.3
+FROM alpine:3.19.3
 
 RUN apk add --no-cache openssh git
 RUN ssh-keygen -A
